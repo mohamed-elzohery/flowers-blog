@@ -1,0 +1,25 @@
+body {
+    background-color: #F0F0F0;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+.striped-row {
+    background-color: #E3E3E3;
+}
+
+.striped-row>td:first-child {
+    border-radius: 20px 0 0 20px;
+}
+
+.striped-row>td:last-child {
+    border-radius: 0 20px 20px 0;
+}
+
+.footer__list {
+    list-style: square;
+    color: #444;
+    font-size: 14px;
+}
